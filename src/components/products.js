@@ -5,6 +5,8 @@ import { CartContext } from '../context/cartContext';
 const ProductCard = ({ product }) => {
   const { addToCart } = useContext(CartContext);
 
+
+
   return (
     <View style={styles.card}>
       <Image source={{ uri: product.image }} style={styles.image} />
@@ -35,6 +37,6 @@ const styles = StyleSheet.create({
   },
   price: {
     marginVertical: 5,
-    color: 'green',
+    color: 'red',
   },
 });

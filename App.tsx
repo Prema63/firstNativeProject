@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { CartProvider } from './src/context/cartContext';
 import AppNavigator from './src/navigation/AppNativgation';
+import { CartProvider } from './src/context/cartContext';
 
 const App = () => {
   return (

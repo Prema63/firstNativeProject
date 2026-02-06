@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { View, FlatList, ActivityIndicator } from 'react-native';
 import { getProducts } from '../api/fakeApi';
-import ProductCard from '../components/products'
+import ProductCard from '../components/products';
 
-const productList = () => {
+const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -32,4 +32,4 @@ const productList = () => {
   );
 };
 
-export default productList;
+export default ProductList;
