@@ -31,8 +31,10 @@ npm run android
 # OR using Yarn
 yarn android
 ```
+```sh
 ###if you want reset build in android
-```npx react-native start --reset-cache```
+npx react-native start --reset-cache
+```
 
 ### iOS
 
